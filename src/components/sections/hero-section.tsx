@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 import { buttonVariants } from "@/components/ui/button"
 
-export async function HeroSection() {
+export function HeroSection() {
   return (
     <section
       id="hero-section"
