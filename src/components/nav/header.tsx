@@ -10,7 +10,7 @@ import { Navigation } from "@/components/nav/navigation"
 import { NavigationMobile } from "@/components/nav/navigation-mobile"
 import { ThemeToggle } from "@/components/theme-toggle"
 
-export async function Header(): Promise<JSX.Element> {
+export function Header(): JSX.Element {
   return (
     <header className="sticky top-0 z-40 flex h-20 w-full bg-transparent">
       <div className="container flex items-center justify-between p-4">
