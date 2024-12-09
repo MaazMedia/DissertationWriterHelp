@@ -11,7 +11,6 @@
     "start": "next start",
     "prettier:format": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
-    "install" : "npm i --legacy-peer-deps",
     "typecheck": "tsc --noEmit",
     "lint": "next lint",
     "lint:fix": "next lint --fix"
